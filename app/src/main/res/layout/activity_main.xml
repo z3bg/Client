@@ -10,6 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.paivex.myapplication.MainActivity">
 
+   <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" >
+
+    </EditText>
+
+
+    <Button
+        android:text="test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:onClick="test"/>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -20,15 +36,37 @@
             android:text="test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:onClick="test"/>
 
         <Button
-            android:text="Send"
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="send"/>
+
+        <Button
+            android:text="Profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:onClick="send"/>
+            android:id="@+id/button4"
+            android:onClick="profile_activity"/>
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            <Button
+                android:text="Perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:onClick="send"/>
+        </RelativeLayout>-->
+
 
     </LinearLayout>
+
+
 </RelativeLayout>

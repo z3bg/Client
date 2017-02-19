@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User" />
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome" />
+        <TextView
+            android:id="@+id/dificuldade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dificuldade" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descricao" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="11sp"
+            android:id="@+id/listUsersDesafiados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar Utilizadores\nDesafiados" />
+        <Button
+            android:textSize="11sp"
+            android:id="@+id/listUsersCompletaram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar Utilizadores\nque Completaram" />
+        <Button
+            android:textSize="11sp"
+            android:id="@+id/listPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar\nPedidos" />
+    </LinearLayout>
+</LinearLayout>
